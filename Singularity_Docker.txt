@@ -1,0 +1,4 @@
+Docker is a development platform used to deploy apps in their own container environments allowing portabiliy 
+across different platforms.  It ensures that the applications would run in the same way on all platforms.
+Singularity is a similar container platform system but was created for High Performance Scientific Computing.  
+Another difference is that Docker uses a daemon to manage container processes and Singularity does not. 
