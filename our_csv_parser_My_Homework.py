@@ -19,21 +19,30 @@ with open(myfilename, 'r') as file_handle:
 
 
 
-        if type(values)==int:
-            values = int(values)
-            #print('value is int' + str(values))
-        elif type(values)==str:
-            values = str(values)
-            #print('value is str' + str(values))
-        elif type(values)==float:
-            values = float(values)
-            #print('value is float' + str(values))
-        else:
-            values
-            #print('value is other' + len(str(values)))
+
+
 
         values = ('[%s]' %', '.join(map(str,values)))
 
+        #Tried to view types
+        #for items in values:
+        #    if type(items)==int:
+        #        items = int(items)
+        #        print('int')
+        #        #print('value is int' + str(items))
+        #    elif type(items)==str:
+        #        items = str(items)
+        #        print('str')
+        #        #print('value is str' + str(items))
+        #    elif type(items)==float:
+        #        items = float(items)
+        #        print('float')
+        #        #print('value is float' + str(items))
+        #    else:
+        #        items
+        #        print('other')
+                #print('value is other' + len(str(items)))
+        #print(items)
 
 
 
