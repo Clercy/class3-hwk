@@ -13,23 +13,19 @@ myfilename = "housing.data.txt"
 
 with open(myfilename, 'r') as file_handle:
 
-#mylist = [] #new
-    
+    #mylist = [] #new
+
     for line in file_handle.readlines():
 
         #mylist.clear() #new
-        
+
         line_clean = line.replace('   ', ' ').replace('  ', ' ')
         line_clean = line_clean.strip()
         values = line_clean.split(' ')
 
         values = ('[%s]' %', '.join(map(str,values)))
 
-        #Tried to make this work but unsuccessful
-        #The For i loop worked in the interpreter
-        #but could not make it work here.
-        #replaced it with for idx but returns empty lists
-
+        #New
         #for idx, item in enumerate(values):
             #print(values[idx])
             #For i in range(len(values)):     #issues with i
@@ -48,10 +44,8 @@ with open(myfilename, 'r') as file_handle:
         #mylist.insert(idx,x)
         #print(mylist)
 
-
-
-
         print(values)
+
         #for value in values:
             # for homework:
             # identify what type of data each value is, and cast it
