@@ -39,11 +39,12 @@ with open(myfilename, 'r') as file_handle:
         #for i in range(len(values)):     #issues with i
         	   #print(values[idx]      #x=values[idx]
 
-        print(mylist)
-        #print('[%s]' % ', '.join(map(str, mylist)))
+        #print(mylist)
 
-        #[[mylist[jdx][idx] for jdx, row in enumerate(mylist)] for idx, column in enumerate(mylist[0])]
-        #print [mylist[jdx][idx]
+        #print('[%s]' % ', '.join(map(str, mylist)))
+            [[mylist[jdx][idx] for jdx, row in enumerate(mylist)] for idx, column in enumerate(mylist[0])]
+            print [mylist[jdx][idx]
+
         #[idx for idx, column in enumerate(mylist[0])]
 
         #[[mylist[jdx][idx] for jdx, row in enumerate(mylist) for idx, column in enumerate(mylist[0])
