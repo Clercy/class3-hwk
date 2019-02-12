@@ -10,10 +10,10 @@ values = [1, 2.05, 0.016]
 i = 0
 
 #for idx, item in enumerate(values):
-print(values[idx])
+#print(values[idx])
 
 i=0
-For i in range(len(values)):
+for i in range(len(values)):
 
     if type(values[i]) == 'float':
           x = float(values[i])
@@ -24,6 +24,6 @@ For i in range(len(values)):
     else:
         x = values[i]
     i += 1
-mylist.insert(i,x)
+    mylist.insert(i,x)
 print('mylist now')
 print(mylist)
