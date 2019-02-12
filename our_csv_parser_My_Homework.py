@@ -39,6 +39,8 @@ with open(myfilename, 'r') as file_handle:
 
         #  Added the code as demonstrated in class but cannot make it run
         #[[mylist[jdx][idx] for jdx, row in enumerate(mylist) for idx, column in enumerate(mylist[0])
+        #[[mylist[jdx][idx] for jdx, row in enumerate(mylist)] for idx, column in enumerate(mylist[0])]
+        #[idx for idx, column in enumerate(mylist[0])]
 
         print(mylist)
 
