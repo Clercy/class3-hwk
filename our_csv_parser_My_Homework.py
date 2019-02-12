@@ -39,13 +39,13 @@ with open(myfilename, 'r') as file_handle:
         	   #print(values[idx]      #x=values[idx]
 
         #print(mylist)
-        print('[%s]' % ', '.join(map(str, mylist)))
+        #print('[%s]' % ', '.join(map(str, mylist)))
 
 
 
         #[[mylist[jdx][idx] for jdx, row in enumerate(mylist) for idx, column in enumerate(mylist[0])
 
-        #print(mylist)
+        print(mylist)
         #print(values)
 
 
